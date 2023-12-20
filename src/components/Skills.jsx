@@ -8,6 +8,10 @@ import Node from "../assets/node.png";
 import GitHub from "../assets/github.png";
 import Tailwind from "../assets/tailwind.png";
 import Mongo from "../assets/mongo.png";
+import ANTD from "../assets/ANTD.png";
+import aws from "../assets/aws.png";
+import firebase from "../assets/firebase.png";
+import BootStrap from "../assets/BootStrap.png";
 
 const Skills = () => {
   return (
@@ -35,7 +39,7 @@ const Skills = () => {
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={ReactImg} alt="HTML icon" />
-            <p className="my-4">REACT</p>
+            <p className="my-4">REACT.JS</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={GitHub} alt="HTML icon" />
@@ -43,15 +47,31 @@ const Skills = () => {
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Node} alt="HTML icon" />
-            <p className="my-4">NODE JS</p>
+            <p className="my-4">NODE.JS</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Mongo} alt="HTML icon" />
-            <p className="my-4">MONGO DB</p>
+            <p className="my-4">MONGO-DB</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Tailwind} alt="HTML icon" />
             <p className="my-4">TAILWIND</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={ANTD} alt="HTML icon" />
+            <p className="my-4">ANT-DESIGN</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={BootStrap} alt="HTML icon" />
+            <p className="my-4">BOOTSTRAP</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={aws} alt="HTML icon" />
+            <p className="my-4">AWS</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={firebase} alt="HTML icon" />
+            <p className="my-4">FIREBASE</p>
           </div>
         </div>
       </div>

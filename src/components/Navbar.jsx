@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import logo from "../assets/logo.png";
 
 import { Link } from "react-scroll";
 
@@ -16,9 +17,9 @@ const Navbar = () => {
           to="home"
           smooth={true}
           duration={500}
-          className="cursor-pointer font-bold text-3xl hover:text-4xl duration-300 text-red-200"
+          className="cursor-pointer "
         >
-          Zaib.
+          <img src={logo} alt="Logos" className=" h-22 w-24 " />
         </Link>
       </div>
 
@@ -61,33 +62,33 @@ const Navbar = () => {
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
+            : "absolute top-0 left-0 w-full h-screen bg-[#010203] flex flex-col justify-center items-center"
         }
       >
-        <li className="py-6 text-4xl">
+        <li className="py-6 text-3xl">
           <Link onClick={handleClick} to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="py-6 text-3xl">
           {" "}
           <Link onClick={handleClick} to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="py-6 text-3xl">
           {" "}
           <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="py-6 text-3xl">
           {" "}
           <Link onClick={handleClick} to="work" smooth={true} duration={500}>
             Work
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="py-6 text-3xl">
           {" "}
           <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
             Contact
