@@ -115,7 +115,7 @@ const Navbar = () => {
             </a>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
-            <a className=" w-full text-gray-300">
+            <button className=" w-full text-gray-300">
               <Link
                 to="contact"
                 smooth={true}
@@ -124,7 +124,7 @@ const Navbar = () => {
               >
                 Message <HiOutlineMail size={30} />
               </Link>
-            </a>
+            </button>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
