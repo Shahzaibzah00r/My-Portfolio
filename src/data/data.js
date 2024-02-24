@@ -1,9 +1,7 @@
 import home from "../assets/projects/home.png";
-import workIm from "../assets/projects/workImg.jpeg";
 import text from "../assets/projects/text.png";
 import site from "../assets/projects/site.png";
 import dashboard from "../assets/projects/dashboard .png";
-import RealEst from "../assets/projects/realestate.jpg";
 
 export const data = [
   {
