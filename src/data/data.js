@@ -1,7 +1,7 @@
 import home from "../assets/projects/home.png";
 import text from "../assets/projects/text.png";
 import site from "../assets/projects/site.png";
-import dashboard from "../assets/projects/dashboard .png";
+import dashboard from "../assets/projects/dashboard.png";
 
 export const data = [
   {
