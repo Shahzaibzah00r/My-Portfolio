@@ -1,6 +1,8 @@
 import home from "../assets/projects/home.png";
 import workIm from "../assets/projects/workImg.jpeg";
 import text from "../assets/projects/text.png";
+import site from "../assets/projects/site.png";
+import dashboard from "../assets/projects/dashboard .png";
 import RealEst from "../assets/projects/realestate.jpg";
 
 export const data = [
@@ -20,16 +22,16 @@ export const data = [
   },
   {
     id: 3,
-    name: "React JS Application",
-    image: workIm,
-    github: "",
-    live: "",
+    name: "Dashboard Madrasa Edu",
+    image: dashboard,
+    github: "https://github.com/Shahzaibzah00r",
+    live: "https://stagging.dashboard.madrasa.io/",
   },
   {
     id: 4,
-    name: "React JS Application",
-    image: RealEst,
-    github: "",
-    live: "",
+    name: "Site Madrasa Edu",
+    image: site,
+    github: "https://github.com/Shahzaibzah00r",
+    live: "https://stagging.madrasa.io/",
   },
 ];
